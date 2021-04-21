@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(240, 252, 242);
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+  }
+  .nav {
+
+    color: rgb(131, 128, 128);
+  }
+
+  .nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+  }
+
+  .nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    transition: background-color 0.2s;
+  }
+  .nav ul li:hover {
+    background-color: rgb(116, 112, 112);
+  }
+
+
+.image-area {
+    background-image:url('images/photo2.jpg');
+    background-color:rgb(128, 126, 126);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .centered-container {
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+  }
+
+.image-text {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(226, 248, 209);
+    font-size: 5rem;
+  }
+
+  .intro-text {
+    color: rgb(59, 59, 59);
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+.single-service {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .single-service p {
+    padding: 0px 16px;
+    font-size: 0.9rem;
+  }
+  .single-service img{
+      width: 20rem;
+      height: 15rem;
+  }
+
+  @media screen and (min-width: 700px) {
+    .nav ul {
+      text-align: center;
+    }
+    .nav ul li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+        text-align: left;
+      }
+      .single-service {
+        width: 50%;
+        float: left;
+      }
+    }
+    form{
+      text-align: center;
+    }
+    #main{
+      margin-top: 100px
+
+    }
+    input[type=text]{
+      width: 200px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    input[type=number]{
+      width: 200px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button[id=searchBtn]{
+      width: 150px;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    .container {
+      position: center;
+
+  padding: inherit;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 2px solid #ddd;
+}
+
+/* Bottom right text */
+.text-block {
+  position: 10px;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+
+  text-align: center;
+}
+
+.container:hover{
+  box-shadow:  0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+.container img{
+  width: 150px;
+  height: 150px;
+  position: center
+}
